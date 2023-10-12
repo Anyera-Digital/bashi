@@ -23,7 +23,7 @@
 
 <body class="main-page">
 <!-- Header -->
-<header class="header">
+<header class="header is-fixed">
   <div class="container">
     <div class="header__content">
       <!-- Left -->
@@ -798,26 +798,38 @@
 
 
 <main class="main">
+  <!-- Main banner -->
+  <section class="main-page-banner responsive-wrapper">
   <div class="container">
-  <p>asd</p>
-  <a href="/">zxcxz</a>
-  <h1>h1</h1>
-  <h2>h2</h2>
+    <picture>
+      <source type="image/webp" srcset="images/main-banner-mob.webp" media="(max-width: 767px)">
+      <source type="image/webp" srcset="images/main-banner-1.webp" media="(min-width: 768px)">
+      <img src="images/main-banner-1.webp.jpg" alt=""/>
+    </picture>
+  </div>
+</section>
+
   
-  <button class="btn fill">
-    <span>button</span>
-  </button>
+  <div class="container">
+    <p>asd</p>
+    <a href="/">zxcxz</a>
+    <h1>h1</h1>
+    <h2>h2</h2>
     
-  
+    <button class="btn fill">
+      <span>button</span>
+    </button>
+    
+    
     <button class="btn btn--bg">
-    <span>button bg</span>
-  </button>
-  
-  <ul>
-    <li>asd</li>
-    <li>asd</li>
-    <li>asd</li>
-  </ul>
+      <span>button bg</span>
+    </button>
+    
+    <ul>
+      <li>asd</li>
+      <li>asd</li>
+      <li>asd</li>
+    </ul>
   </div>
 </main>
 
